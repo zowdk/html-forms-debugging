@@ -2,13 +2,22 @@
 
 In this practice you will be debugging the provided HTML Form.
 
-Your main focus is to practice identify and debug the HTML form. There are some
-errors that are obvious while others take more attention.
+Your main focus is to practice identifying and debugging the HTML form. There
+are some errors that are obvious while others take more attention. You will also
+use Cypress testing to check your work.
+
+## Phase 0: Setup
+
+Once you have downloaded the starter, `cd` into the project directory and run
+`npm install` to install the cypress tests. To run tests, use the command `npm
+test`. If everything is set up correctly, the first test, checking the title of
+the project, should already pass based on the code provided in the starter.
 
 ## Phase 1: Debug the HTML Form
 
-Once you have downloaded the starter, open the __index.html__ file in your
-browser.
+Once you have set up and tried out the Cypress tests, open the __index.html__
+file in your browser. Complete the task described in each phase below, and run
+`npm test` to check your solution after each phase.
 
 ## Phase 2: Add Last Name
 
@@ -29,3 +38,6 @@ Debug the issue.
 
 1. Instead of the bio element having two input fields change it to be able to
 take in a text box that allows multiple lines of text.
+
+After you have passed all of the tests, delete your node modules folder, zip up
+your project, and submit it using the green submit button below.
