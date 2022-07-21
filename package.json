@@ -6,7 +6,6 @@
   "scripts": {
     "test": "cypress run --spec 'cypress/integration/test.spec.js'"
   },
-  "dependencies": {},
   "devDependencies": {
     "cypress": "^8.3.0"
   },
